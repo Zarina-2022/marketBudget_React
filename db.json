@@ -1,0 +1,44 @@
+{
+    "expenses":[
+        {
+            "id":"1",
+            "price":100,
+            "place":"Lidl",
+            "date":"19.01.2023",
+            "title":"weekly shopping",
+            "description":"No sugar left in the warehouse",
+            "categoryId":"1"
+        },
+        {
+            "id":"2",
+            "price":600,
+            "place":"Aldi",
+            "date":"23.01.2023",
+            "title":"Daily income",
+            "description":"No butter left in the warehouse",
+            "categoryId":"4"
+        }
+    ],
+    "categories":[
+        {
+            "id":"1",
+            "name": "Market"
+        },
+        {
+            "id":"2",
+            "name": "Clothes"
+        },
+        {
+            "id":"3",
+            "name": "Education"
+        },
+        {
+            "id":"4",
+            "name": "Electronic"
+        },
+        {
+            "id":"5",
+            "name": "Entertainment"
+        }
+    ]
+}
