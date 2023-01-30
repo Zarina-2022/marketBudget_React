@@ -1,0 +1,20 @@
+BUDGET APP
+
+A. Depedencies:
+    1. json-server
+    2. axios
+    3. style custom olacak
+    4. react-router-dom
+
+B. Senaryo:
+    1. Kullanicinin harcamalarini listeleyecegi bir uygulama olacak.
+    2. Her harcamanin bir kategorisi olmali.
+    3. Kullanici kategori ekleme, silme, guncelleme islemlerini 
+        yapabilmeli.
+    4. Kullanici harcamalarla ilgili ekleme, silme, guncelleme islemlerini 
+        yapabilmeli.
+    5. Harcama eklerken alinacak bilgiler:
+        a) tutar, kategorisi, miktar, tarih,baslik
+    6. Raporlama?
+    7. Filtreleme ?
+

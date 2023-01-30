@@ -10,7 +10,7 @@ const SingleExpense = ({ expense, categories }) => {
         <div className="expenseWrapper">
             <h2 className="expenseTitle">{expense.title}</h2>
             <p className="expenseDescription">{expense.description}</p>
-            <h1 className="expensePrice">{expense.price} &#8378;</h1>
+            <h1 className="expensePrice">{expense.price} &euro;</h1>
             <div className="btnWrapper">
                 <div>
                     <img className="expenseIcon" src={deleteIcon} />
