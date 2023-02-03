@@ -18,7 +18,6 @@
       "description": "No butter left in the warehouse",
       "categoryId": "4"
     },
-
     {
       "price": "150",
       "location": "Weert",
@@ -36,6 +35,24 @@
       "date": "2023-01-27",
       "categoryId": "3",
       "id": "1675101361995"
+    },
+    {
+      "price": "34",
+      "location": "erwer",
+      "title": "ewrwe",
+      "description": "werwe",
+      "date": "2023-02-24",
+      "categoryId": "3",
+      "id": "1675420696724"
+    },
+    {
+      "price": "34",
+      "location": "4gsgt",
+      "title": "sdgds",
+      "description": "sdas",
+      "date": "2023-02-23",
+      "categoryId": "4",
+      "id": "1675421025236"
     }
   ],
   "categories": [
