@@ -1,5 +1,7 @@
 <h1>BUDGET-APP</h1>
 
+<h3></h3>
+
 <h3>This site was made by using <b>CSS3</b> and <b>React.js</b>.</h3>
 
 <h3>Additionally I used <a href="https://icons8.com/"><b>icons8.com</b> </a> (for icons) </h3>
@@ -9,6 +11,9 @@
 ![](BudgetApp.gif)
 
 Enjoy Coding ❤
+
+
+
 
 # Getting Started with Create React App
 

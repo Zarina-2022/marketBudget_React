@@ -43,6 +43,7 @@ const AddExpense = () => {
             || form.categoryId === ""
             || form.location === ""
             || form.description === ""
+            || form.categoryId === "empty"
             || form.date === "") {
             alert("All fields are required.")
             return;
@@ -66,27 +67,34 @@ const AddExpense = () => {
                 <form onSubmit={handleSubmit}>
                     <div className="formElement">
                         <label htmlFor="price">Price</label>
-                        <input id="price" type={"number"} value={form.price} onChange={(event) => setForm({ ...form, price: event.target.value })} />
+                        <input id="price" type={"number"} value={form.price} 
+                            onChange={(event) => setForm({ ...form, price: event.target.value })} />
                     </div>
                     <div className="formElement">
                         <label htmlFor="location">Location</label>
-                        <input id="location" type={"text"} value={form.location} onChange={(event) => setForm({ ...form, location: event.target.value })} />
+                        <input id="location" type={"text"} value={form.location} 
+                            onChange={(event) => setForm({ ...form, location: event.target.value })} />
                     </div>
                     <div className="formElement">
                         <label htmlFor="title">Title</label>
-                        <input id="title" type={"text"} value={form.title} onChange={(event) => setForm({ ...form, title: event.target.value })} />
+                        <input id="title" type={"text"} value={form.title} 
+                            onChange={(event) => setForm({ ...form, title: event.target.value })} />
                     </div>
                     <div className="formElement">
                         <label htmlFor="description">Description</label>
-                        <input id="description" type={"text"} value={form.description} onChange={(event) => setForm({ ...form, description: event.target.value })} />
+                        <input id="description" type={"text"} value={form.description} 
+                            onChange={(event) => setForm({ ...form, description: event.target.value })} />
                     </div>
                     <div className="formElement">
                         <label htmlFor="date">Date</label>
-                        <input id="date" type={"date"} value={form.date} onChange={(event) => setForm({ ...form, date: event.target.value })} />
+                        <input id="date" type={"date"} value={form.date} 
+                            onChange={(event) => setForm({ ...form, date: event.target.value })} />
                     </div>
                     <div className="formElement">
                         <label htmlFor="Category">Category</label>
-                        <select id="Category" defaultValue={categories[0].id} onChange={(event) => setForm({ ...form, categoryId: event.target.value })}>
+                        <select id="Category" 
+                            onChange={(event) => setForm({ ...form, categoryId: event.target.value })}>
+                                <option value={"empty"}>---</option>
                             {
                                 categories.map(category => (
                                     <option key={category.id} value={category.id}>{category.name}</option>

@@ -19,40 +19,13 @@
       "categoryId": "4"
     },
     {
-      "price": "150",
-      "location": "Weert",
-      "title": "Toys",
-      "description": "Teddy bear",
-      "date": "2023-01-29",
-      "categoryId": "5",
-      "id": "1675100909324"
-    },
-    {
-      "price": "350",
+      "price": "560",
       "location": "Rotterdam",
-      "title": "Books",
-      "description": "Adventures",
-      "date": "2023-01-27",
-      "categoryId": "3",
-      "id": "1675101361995"
-    },
-    {
-      "price": "34",
-      "location": "erwer",
-      "title": "ewrwe",
-      "description": "werwe",
-      "date": "2023-02-24",
-      "categoryId": "3",
-      "id": "1675420696724"
-    },
-    {
-      "price": "34",
-      "location": "4gsgt",
-      "title": "sdgds",
-      "description": "sdas",
-      "date": "2023-02-23",
+      "title": "TV",
+      "description": "vandaag",
+      "date": "2023-02-06",
       "categoryId": "4",
-      "id": "1675421025236"
+      "id": "1675700359660"
     }
   ],
   "categories": [

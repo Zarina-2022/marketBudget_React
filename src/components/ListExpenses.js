@@ -5,7 +5,7 @@ import addLight from "../assets/images/plusLight.png"
 import addDark from "../assets/images/plusDark.png";
 import { useNavigate } from "react-router-dom";
 
-const ListExpenses = ({ expenses = [], categories, selectedCategory }) => {
+const ListExpenses = ({ expenses = [], categories, selectedCategory, didUpdate, setDidUpdate }) => {
     const [filteredExpenses, setFilteredExpenses] = useState(expenses)
     const [addHoveredBtn, setAddHoveredBtn] = useState(false);
     const navigate = useNavigate();
@@ -51,7 +51,12 @@ const ListExpenses = ({ expenses = [], categories, selectedCategory }) => {
                             <>
                                 {
                                     filteredExpenses.map(expense => (
-                                        <SingleExpense categories={categories} key={expense.id} expense={expense} />
+                                        <SingleExpense 
+                                            categories={categories} 
+                                            key={expense.id} 
+                                            expense={expense} 
+                                            didUpdate={didUpdate}
+                                            setDidUpdate={setDidUpdate}  />
                                     ))
                                 }
                             </>

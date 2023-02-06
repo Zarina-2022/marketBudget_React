@@ -5,7 +5,6 @@ import ListExpenses from "../components/ListExpenses";
 import axios from "axios";
 import "../assets/styles/general.css";
 
-
 const Home = () => {
     const [expenses, setExpenses] = useState(null)
     const [categories, setCategories] = useState(null) // [] koyabiliriz
@@ -13,6 +12,7 @@ const Home = () => {
         id: "0",
         name: "All"
     })
+    const [didUpdate,setDidUpdate]=useState(false)
 
     useEffect(() => {
         axios.get("http://localhost:3004/categories")
@@ -26,7 +26,7 @@ const Home = () => {
                 setExpenses(res.data)
             })
             .catch((err) => { })
-    }, [])
+    }, [didUpdate])
 
     if (categories === null || expenses === null) return null // useState(null) yani baslangic seviyesi null ise
 
@@ -34,7 +34,12 @@ const Home = () => {
             <div>
                 <Header whichPage={"home"} />
                 <CategoriesList categories={categories} selectedCategory={selectedCategory} setSelectedCategory={setSelectedCategory} />
-                <ListExpenses selectedCategory={selectedCategory} categories={categories} expenses={expenses} />
+                <ListExpenses 
+                    selectedCategory={selectedCategory} 
+                    categories={categories} 
+                    expenses={expenses} 
+                    didUpdate={didUpdate}
+                    setDidUpdate={setDidUpdate} />
             </div>
     )
 }

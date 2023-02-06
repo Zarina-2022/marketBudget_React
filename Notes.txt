@@ -5,6 +5,7 @@ A. Depedencies:
     2. axios
     3. style custom olacak
     4. react-router-dom
+    5. Ant Design of React
 
 B. Senaryo:
     1. Kullanicinin harcamalarini listeleyecegi bir uygulama olacak.
