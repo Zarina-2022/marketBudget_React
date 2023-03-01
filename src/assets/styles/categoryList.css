@@ -1,9 +1,11 @@
 .categoriesContainer{
+    position: relative;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .categoriesWrapper{
     width: 70%;
     display: flex;
@@ -27,4 +29,18 @@
 }
 .categoryItemActive{
     background-color:  rgba(0,0,0,0.1);
+}
+
+.categoryOperations{
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    bottom: -33px;
+    right: 17%;
+    cursor: pointer;
+    z-index: 1;
+    transition: all ease-in-out 0.3s;
+}
+.categoryOperations:hover{
+    transform: scaleX(1.05);
 }

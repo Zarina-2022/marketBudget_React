@@ -13,7 +13,7 @@ const ListExpenses = ({ expenses = [], categories, selectedCategory, didUpdate, 
     // tum expense'lerin harcamalarini tek yerde gostermek icin:
     var total = 0
     for (let i = 0; i < expenses.length; i++) {
-        total+=Number(expenses[i].price)  // ayni: total=total+expenses[i].price
+        total+=Number(expenses[i].price)  // ayni: total=total+expenses[i].price 
     }
 
     // filtreleme useEffect ile yapiyoruz (her selectedCategory degistiginde)

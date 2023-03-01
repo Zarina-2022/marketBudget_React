@@ -24,9 +24,9 @@ const SingleExpense = ({ expense, categories=[], didUpdate, setDidUpdate }) => {
 
     return (
         <div className="expenseWrapper">
-            <h2 className="expenseTitle">{expense.title}</h2>
+            <h4 className="expenseTitle">{expense.title}</h4>
             <p className="expenseDescription">{expense.description}</p>
-            <h1 className="expensePrice">{expense.price} &euro;</h1>
+            <h4 className="expensePrice">{expense.price} &euro;</h4>
             <div className="btnWrapper">
                 <div onClick={()=>setShowDeleteModel(true)}>
                     <img className="expenseIcon" src={deleteIcon} />

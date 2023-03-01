@@ -1,53 +1,143 @@
 {
   "expenses": [
     {
-      "id": "1",
-      "price": "100",
-      "place": "Lidl",
-      "date": "2023.01.19",
-      "title": "weekly shopping",
-      "description": "No sugar left in the warehouse",
-      "categoryId": "1"
+      "price": "33",
+      "location": "Nederland",
+      "title": "Electricity",
+      "description": "monthly",
+      "date": "2023-03-01",
+      "categoryId": "1677664963495",
+      "id": "1677666087814"
     },
     {
-      "id": "2",
-      "price": "200",
-      "place": "Aldi",
-      "date": "2023.01.23",
-      "title": "Daily income",
-      "description": "No butter left in the warehouse",
-      "categoryId": "4"
-    },
-    {
-      "price": "560",
+      "price": "34",
       "location": "Rotterdam",
+      "title": "fuel",
+      "description": "",
+      "date": "2023-03-01",
+      "categoryId": "1677664985895",
+      "id": "1677666166679"
+    },
+    {
+      "price": "17",
+      "location": "Nederland",
+      "title": "medicine/drug",
+      "description": "Vitamins",
+      "date": "2023-03-01",
+      "categoryId": "1677664998846",
+      "id": "1677666275750"
+    },
+    {
+      "price": "24",
+      "location": "Nederland",
+      "title": "Gifts",
+      "description": "New Year",
+      "date": "2023-03-01",
+      "categoryId": "1677665536116",
+      "id": "1677666373255"
+    },
+    {
+      "price": "15",
+      "location": "Nederland",
       "title": "TV",
-      "description": "vandaag",
-      "date": "2023-02-06",
-      "categoryId": "4",
-      "id": "1675700359660"
+      "description": "Netflix",
+      "date": "2023-03-01",
+      "categoryId": "1677665610702",
+      "id": "1677666421744"
+    },
+    {
+      "price": "12",
+      "location": "Nederland",
+      "title": "school supplies",
+      "description": "Book, pen, pencil etc",
+      "date": "2023-03-01",
+      "categoryId": "1677665643302",
+      "id": "1677666478183"
+    },
+    {
+      "price": "55",
+      "location": "Nederland",
+      "title": "clothing",
+      "description": "Coat, gloves, boots.",
+      "date": "2023-03-01",
+      "categoryId": "1677665653542",
+      "id": "1677666616918"
+    },
+    {
+      "price": "35",
+      "location": "Nederland",
+      "title": "taxes",
+      "description": "",
+      "date": "2023-03-01",
+      "categoryId": "1677665708006",
+      "id": "1677666691926"
+    },
+    {
+      "price": "44",
+      "location": "Nederland",
+      "title": "Fast food",
+      "description": "",
+      "date": "2023-03-01",
+      "categoryId": "1677667100876",
+      "id": "1677667130842"
     }
   ],
   "categories": [
     {
-      "id": "1",
-      "name": "Market"
+      "id": "1677664963495",
+      "name": "home expenses"
     },
     {
-      "id": "2",
-      "name": "Clothes"
+      "id": "1677664985895",
+      "name": "transportation"
     },
     {
-      "id": "3",
-      "name": "Education"
+      "id": "1677664998846",
+      "name": "Health"
     },
     {
-      "id": "4",
-      "name": "Electronic"
+      "id": "1677665536116",
+      "name": "charity/gifts"
     },
     {
-      "id": "5",
-      "name": "Entertainment"
+      "id": "1677665610702",
+      "name": "subscriptions"
+    },
+    {
+      "id": "1677665643302",
+      "name": "education"
+    },
+    {
+      "id": "1677665653542",
+      "name": "personal care"
+    },
+    {
+      "id": "1677665673831",
+      "name": "entertainment"
+    },
+    {
+      "id": "1677665692567",
+      "name": "savings"
+    },
+    {
+      "id": "1677665700511",
+      "name": "debt"
+    },
+    {
+      "id": "1677665708006",
+      "name": "obligations"
+    },
+    {
+      "id": "1677665726462",
+      "name": "professional services"
+    },
+    {
+      "id": "1677665816983",
+      "name": "miscellaneous"
+    },
+    {
+      "id": "1677667100876",
+      "name": "food"
     }
   ]
 }

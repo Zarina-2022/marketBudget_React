@@ -9,7 +9,7 @@ const Modal = ({ title = "",
                  confirmClick=()=>{},
                  hasConfirm = false  }) => {
     return (
-        <div className="container">
+        <div className="modalContainer">
             <div className="containerContent">
                 <h1 className="title">{title}</h1>
                 <p className="content">{content}</p>

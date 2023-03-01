@@ -22,8 +22,9 @@
 .totalPriceWrapper{
     position: absolute;
     padding: 10px;
-    background-color: #fff;
-    top: 1%;
+    background-color: transparent;
+    font-weight: bold;
+    top: 0.5%;
     left: 14%;
 }
 

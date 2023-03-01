@@ -3,6 +3,9 @@ import { BrowserRouter,Routes,Route } from "react-router-dom";
 import Home from "./Pages/Home";
 import AddExpense from "./Pages/AddExpense";
 import EditExpense from "./Pages/EditExpense";
+import CategoryOperations from "./Pages/CategoryOperations";
+import AddCategory from "./Pages/AddCategory";
+import EditCategory from "./Pages/EditCategory";
 
 function App() {
 
@@ -13,6 +16,9 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/add-expense" element={<AddExpense />} />
           <Route path="/edit-expense/:expenseId" element={<EditExpense />} />
+          <Route path="/category-operations" element={<CategoryOperations />} />
+          <Route path="/add-category" element={<AddCategory />} />
+          <Route path="/edit-category/:categoryId" element={<EditCategory />} />
         </Routes>
       </BrowserRouter>
     </>
