@@ -2,19 +2,19 @@
 
 <h3>This site is made by using <b>CSS3</b> and <b>React.js</b>.</h3>
 
-<p>You can add, edit/update, delete and see the total expenses of your expenses and categories.</p>
-<br>
+<h3>You can add, edit/update, delete and see the total expenses of your expenses and categories.</h3>
 
 <h3>Additionally I used:</h3>
 <h3>- <a href="https://icons8.com/"><b>icons8.com</b> </a> (for icons); </h3>
 <h3>- <a href="https://www.bootstrapcdn.com/"><b>Bootstrap</b> </a></h3>
-
 
 <h3><b><u>Dependencies:<u><b></h3>
 <h3><b><u>React<u><b> - useState, useEffect; </h3>
 <h3><b><u>React-router-dom <u><b>- Link, useNavigate, useParams, BrowserRouter, Routes, Route; </h3>
 <h3><b><u>Axios <u><b> - axios;</h3>
 <h3><b><u>Json-server<u><b> - db.json;</h3>
+<h3><b><u>utils<u><b> - data, uppercase, regex(special characters);</h3>
+<h3><b><u>Modal<u><b> - delete modal, success modal;</h3>
 
 <h3>Preview:</h3>
 
